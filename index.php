@@ -1,1 +1,10 @@
-<?php echo "hola jose pero ahora en php :)"; ?>
+<?php 
+
+$a = 1;
+$b = 2;
+
+$c = $a + $b;
+
+echo $c;
+
+?>
