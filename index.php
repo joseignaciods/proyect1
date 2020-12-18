@@ -1,7 +1,7 @@
 <?php 
 
-if (isset($_GET['q']))
-	echo $_GET['q'];
+if (isset($_POST['q']))
+	echo $_POST['q'];
 else
 	echo 'error';
 
