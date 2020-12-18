@@ -1,10 +1,11 @@
 <?php 
 
-$a = 1;
-$b = 2;
+if (isset($_GET['q']))
+	echo $_GET['q'];
+else
+	echo 'error';
 
-$c = $a + $b;
 
-echo $c;
+
 
 ?>
